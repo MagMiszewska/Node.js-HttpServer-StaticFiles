@@ -1,0 +1,21 @@
+{
+  "name": "zadanie_13_8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:js": "globstar jshint *.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "globstar": "^1.0.0",
+    "http": "0.0.0",
+    "jshint": "^2.9.5",
+    "npm-run-all": "^4.1.3"
+  }
+}
